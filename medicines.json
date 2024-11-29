@@ -1,0 +1,15 @@
+[
+    {
+      "name": "Paracetamol",
+      "uses": "Pain relief and fever reduction",
+      "sideEffects": "Nausea, rash",
+      "dosage": "500mg every 4-6 hours"
+    },
+    {
+      "name": "Ibuprofen",
+      "uses": "Pain relief, inflammation reduction",
+      "sideEffects": "Stomach upset, dizziness",
+      "dosage": "200-400mg every 6-8 hours"
+    }
+  ]
+  
