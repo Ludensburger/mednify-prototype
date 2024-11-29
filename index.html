@@ -9,10 +9,17 @@
   <body>
     <div class="app">
       <h1>Mednify</h1>
-      <input
-        type="text"
-        id="search-bar"
-        placeholder="Search for a medicine..." />
+      <div class="search-controls">
+        <input
+          type="text"
+          id="search-bar"
+          placeholder="Search for a medicine..." />
+        <div class="search-buttons">
+          <button id="search-generic" class="active">Generic Name</button>
+          <button id="search-brand">Brand Name</button>
+          <button id="search-uses">Uses</button>
+        </div>
+      </div>
       <ul id="results"></ul>
       <div id="details"></div>
     </div>
