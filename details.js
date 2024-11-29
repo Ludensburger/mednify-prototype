@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const medicineId = urlParams.get("id");
 
   // Fetch the JSON data
-  fetch("kinawat.json")
+  fetch("improved.json")
     .then((response) => response.json())
     .then((data) => {
       const medicine = data.find((med) => med.id === medicineId);
@@ -26,6 +26,9 @@ document.addEventListener("DOMContentLoaded", () => {
         <p><strong>Brand Name:</strong> ${medicine.brandName}</p>
         <p><strong>Form:</strong> ${medicine.form}</p>
         <p><strong>Measurement Unit:</strong> ${medicine.measurementUnit}</p>
+        <p><strong>Dosage:</strong> ${medicine.dosage}</p>
+        <p><strong>Side Effects:</strong> ${medicine.sideEffects}</p>
+        <p><strong>Uses:</strong> ${medicine.uses}</p>
       </div>
     `;
   }

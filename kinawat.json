@@ -1,19 +1,4 @@
-[{
-    "_version": 1,
-    "id": "1",
-    "genericName": "ABCIXIMAB INJECTION 10MG IN 5ML",
-    "brandName": "REOPRO",
-    "measurementUnit": "None",
-    "form": "Injectible"
-},
-{
-    "_version": 1,
-    "id": "2",
-    "genericName": "ABIRATERONE ACETATE TABLETS 250MG",
-    "brandName": "ZYTIGA",
-    "measurementUnit": "None",
-    "form": "Tablet"
-},
+[
 {
     "_version": 1,
     "id": "3",
