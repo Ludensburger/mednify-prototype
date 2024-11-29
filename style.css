@@ -1,21 +1,47 @@
 body {
     font-family: Arial, sans-serif;
-
     padding: 20px;
     background-color: #f4f4f9;
-
 }
-
 
 .app {
     max-width: 600px;
     margin: auto;
 }
 
+.search-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 #search-bar {
     width: 100%;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.search-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.search-buttons button {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.search-buttons button.active {
+    background: #1a73e8;
+    color: #fff;
+}
+
+.search-buttons button:hover {
+    background: #f0f0f0;
 }
 
 #results {
